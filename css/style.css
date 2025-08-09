@@ -38,10 +38,28 @@ ul {
 
 .contact {
   display: flex;
+  gap: 10px;
   padding: 10px;
 }
 
 .image-contact {
   width: 50px;
   border-radius: 60px;
+}
+
+.contact-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.status {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.offline::before {
+  content: ".";
+  color: red;
 }
