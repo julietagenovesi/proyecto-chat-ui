@@ -17,6 +17,7 @@ body {
 .sidebar {
   width: 20%;
   padding: 20px;
+  border-right: 1px solid rgb(161, 157, 157);
 }
 
 .search {
@@ -50,9 +51,6 @@ ul {
   border-radius: 60px;
 }
 
-.image-contact :hover {
-  background-color: none;
-}
 
 .contact-information {
   display: flex;
