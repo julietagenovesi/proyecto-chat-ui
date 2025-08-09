@@ -3,3 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.full-screen {
+  display: flex;
+  flex-direction: row;
+}
