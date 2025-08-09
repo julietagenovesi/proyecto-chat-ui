@@ -65,9 +65,16 @@ ul {
 .offline::before {
   content: "•";
   color: red;
+  padding-right: 5px;
 }
 
 .online::before {
   content: "•";
   color: rgb(32, 207, 9);
+  padding-right: 5px;
+}
+
+.contact-list :hover {
+  background-color: #efefef;
+  border-radius: 10px;
 }
