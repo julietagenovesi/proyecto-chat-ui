@@ -15,8 +15,9 @@ body {
 }
 
 .sidebar {
-  margin: 20px;
   width: 20%;
+  padding: 20px;
+  background-color: rgb(255, 207, 144);
 }
 
 .search {
@@ -33,4 +34,9 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+.contact {
+  display: flex;
+
 }
