@@ -56,7 +56,6 @@ ul {
 .contact-information {
   display: flex;
   flex-direction: column;
-
 }
 
 .status {
@@ -64,6 +63,7 @@ ul {
   font-weight: 300;
   font-style: normal;
   font-size: 15px;
+  padding: 0px;
 }
 
 .offline::before {
