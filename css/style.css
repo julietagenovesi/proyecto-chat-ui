@@ -50,6 +50,10 @@ ul {
   border-radius: 60px;
 }
 
+.image-contact :hover {
+  background-color: none;
+}
+
 .contact-information {
   display: flex;
   flex-direction: column;
