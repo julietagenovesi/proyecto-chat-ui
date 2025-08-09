@@ -38,5 +38,10 @@ ul {
 
 .contact {
   display: flex;
+  padding: 10px;
+}
 
+.image-contact {
+  width: 50px;
+  border-radius: 60px;
 }
