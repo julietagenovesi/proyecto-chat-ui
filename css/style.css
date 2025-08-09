@@ -85,3 +85,16 @@ ul {
   background-color: #efefef;
   border-radius: 10px;
 }
+
+.header {
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+
+.chat-header {
+  display: flex;
+  align-items: start;
+  text-align: center;
+  gap: 10px;
+}
