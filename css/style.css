@@ -56,6 +56,7 @@ ul {
 .contact-information {
   display: flex;
   flex-direction: column;
+
 }
 
 .status {
@@ -63,22 +64,19 @@ ul {
   font-weight: 300;
   font-style: normal;
   font-size: 15px;
-  padding: 0px;
 }
 
 .offline::before {
   content: "•";
   color: red;
   padding-right: 5px;
-  font-size: 30px;
-
 }
+
 
 .online::before {
   content: "•";
   color: rgb(32, 207, 9);
   padding-right: 5px;
-  font-size: 30px;
 }
 
 .contact-list :hover {
@@ -95,6 +93,5 @@ ul {
 .chat-header {
   display: flex;
   align-items: start;
-  text-align: center;
   gap: 10px;
 }
