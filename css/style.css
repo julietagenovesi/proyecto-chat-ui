@@ -16,7 +16,7 @@ body {
 }
 
 .sidebar {
-  width: 20%;
+  width: 18%;
   padding: 20px;
   border-right: 1px solid rgb(161, 157, 157);
   display: flex;
@@ -81,7 +81,7 @@ ul {
 }
 
 .contact-list :hover {
-  background-color: #efefef;
+  background-color: #F6F5F4;
   border-radius: 10px;
 }
 
@@ -165,7 +165,6 @@ button {
   font-style: normal;
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
   border: 1px solid rgb(173, 171, 171);
   border-radius: 8px;
   cursor: pointer;
