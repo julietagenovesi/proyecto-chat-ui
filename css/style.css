@@ -38,13 +38,27 @@ ul {
   list-style-type: none;
 }
 
-.contact {
+.contact-list li {
   display: flex;
   align-items: center;
   gap: 10px;
   padding: 10px;
   cursor: pointer;
 }
+
+.open-chat {
+  background-color: #F6F5F4;
+  border-radius: 10px;
+}
+
+/*
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}*/
 
 .image-contact {
   width: 50px;
@@ -55,10 +69,6 @@ ul {
 .contact-information {
   display: flex;
   flex-direction: column;
-}
-
-.contact-list .open-chat {
-  background-color: #F6F5F4;
 }
 
 .status-offline {
@@ -84,7 +94,7 @@ ul {
   margin-right: 5px
 }
 
-.contact-list :hover {
+.contact-list li:hover {
   background-color: #F6F5F4;
   border-radius: 10px;
 }
