@@ -124,3 +124,10 @@ button {
   flex-direction: column;
   padding: 20px;
 }
+
+.message-sent {
+  align-self: flex-end;
+  background-color: #e4f2f7;
+  padding: 15px;
+  border-radius: 10px;
+}
