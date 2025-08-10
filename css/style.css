@@ -57,6 +57,10 @@ ul {
   flex-direction: column;
 }
 
+.contact-list .open-chat {
+  background-color: #F6F5F4;
+}
+
 .status-offline {
   display: inline-block;
   font-size: 14px;
