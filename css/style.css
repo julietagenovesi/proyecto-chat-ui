@@ -123,11 +123,28 @@ button {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  gap: 15px;
 }
 
 .message-sent {
   align-self: flex-end;
   background-color: #e4f2f7;
-  padding: 15px;
+  padding: 12px;
   border-radius: 10px;
+}
+
+.received-message {
+  align-self: flex-start;
+  background-color: #ededed;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.message {
+  font-size: 16px;
+}
+
+.time {
+  font-size: 14px;
+  color: gray;
 }
