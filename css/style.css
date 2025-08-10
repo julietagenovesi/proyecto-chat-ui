@@ -110,7 +110,6 @@ main {
   display: flex;
   align-items: center;
   gap: 15px;
-
 }
 
 button {
@@ -118,4 +117,10 @@ button {
   border: none;
   font-size: 25px;
   cursor: pointer;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
