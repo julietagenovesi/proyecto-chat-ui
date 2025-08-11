@@ -181,4 +181,12 @@ button {
   .sidebar {
     display: none;
   }
+
+  .message-sent {
+    max-width: 90%;
+  }
+
+  .received-message {
+    max-width: 90%;
+  }
 }
