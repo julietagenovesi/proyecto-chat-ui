@@ -189,4 +189,10 @@ button {
   .received-message {
     max-width: 90%;
   }
+
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
 }
